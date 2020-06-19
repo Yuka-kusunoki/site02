@@ -1,0 +1,215 @@
+@import url("reset.css");
+@import url("common.css");
+
+/*インデックスページ以外の共通*/
+.copyright{
+text-align: center;
+color: white;
+background-color:#1E0000;
+padding:2%;
+clear: both;
+}
+/*ここまで*/
+
+.bg{
+background-image:url("images-2/news-bg.jpg");
+background-position: top center;
+background-repeat: no-repeat;
+background-blend-mode: hard-light;
+background-size: cover;
+height:35vh;
+position: relative;
+}
+
+#flex1{
+position: absolute;
+top: 15vh;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+}
+
+h2,p{
+font-weight:120%;
+}
+
+h2{
+font-size:400%;
+margin-bottom:4%;
+text-align: center;
+}
+
+p{
+color: #1E0000;
+font-size:100%;
+}
+
+article{
+width:73%;
+float:left;
+padding-right:17%;
+padding-bottom:5%;
+}
+
+#introduction{
+display: flex;
+}
+
+#timeBackground{
+color:white;
+background-color: #0bd;
+border-radius:50%;
+padding:3% 5%;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+height:50%;
+margin-right: 5%;
+}
+
+#monthAnddate{
+display:inline-block;
+font-weight: bolder;
+font-size:200%;
+padding-bottom: 20%;
+border-bottom: 1px solid;
+border-bottom-color: rgba(255,255,255,0.5);
+}
+
+#year{
+display:inline-block;
+padding-top: 20%;
+font-size: 150%;
+}
+
+h3{
+font-size:220%;
+font-weight:normal;
+color: #1E0000;
+clear: both;
+word-wrap: normal;
+word-break:keep-all;
+letter-spacing: 0.1em;
+width:100%;
+}
+
+#woman{
+width:100%;
+}
+
+.discription{
+font-size: 122%;
+word-wrap: break-word;
+word-break:break-all;
+}
+
+.space{
+margin-bottom:5%;
+}
+
+aside{
+width:27%;
+float: right;
+}
+
+h4{
+border-bottom: 2px solid #0bd;
+color: #1E0000;
+font-size: 150%;
+padding-bottom:5%;
+font-weight:normal;
+}
+
+#this-Store{
+margin-top:5%;
+}
+
+#aside-space{
+margin-bottom: 18%;
+}
+
+.aside-ul{
+margin:0;
+display:block;
+}
+
+.aside-li{
+margin: 0;
+font-weight: normal; 
+border-bottom:1px lightgrey solid;
+padding: 4% 0;
+display: block;
+}
+
+.aside-a:hover{
+color: #0bd;
+}
+
+@media screen and (max-width: 896px){
+
+main{
+padding:9% 3%;
+}
+
+#flex1{
+top: 20vh;
+}
+
+h2{
+font-size:400%;
+margin-bottom:4%;
+text-align: center;
+}
+
+p{
+color: #1E0000;
+font-size:100%;
+}
+
+article{
+width:100%;
+padding-right:0%;
+padding-bottom:15%;
+}
+
+#timeBackground{
+padding:3% 5%;
+margin-right: 2%;
+}
+
+#monthAnddate{
+font-size:75%;
+}
+
+#year{
+display:inline-block;
+padding-top: 10%;
+font-size: 50%;
+}
+
+h3{
+font-size:170%;
+word-wrap: break-word;
+word-break:break-all;
+}
+
+aside{
+width:100%;
+margin-bottom: 10%;
+}
+
+h4{
+padding-bottom:3%;
+}
+
+#this-Store{
+margin-top:5%;
+}
+
+.copyright{
+padding:8% 2% 2% 0%;
+}
+
+}

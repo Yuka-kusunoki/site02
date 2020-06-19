@@ -1,0 +1,215 @@
+@import url("reset.css");
+@import url("common.css");
+
+/*インデックスページ以外の共通*/
+.copyright{
+text-align: center;
+color: white;
+background-color:#1E0000;
+padding:2%;
+}
+/*ここまで*/
+
+.bg{
+background-image:url("images-2/contact-bg.jpg");
+background-position: top center;
+background-repeat: no-repeat;
+background-blend-mode: hard-light;
+background-size: cover;
+height:100vh;
+position: relative;
+}
+
+.bg-mask{
+background: rgba(255,255,255,0.3);
+height:100vh;
+}
+
+section{
+padding:0 12%;
+}
+
+h2{
+padding:0;
+font-weight:120%;
+font-size:400%;
+margin-bottom:4%;
+}
+
+p{
+color: #1E0000;
+}
+
+dt{
+color: #1E0000;
+margin:1% 0;
+}
+
+#name,#email{
+padding: 1% 0%;
+}
+
+#name,#email,#message{
+border:solid 1px white;
+background-color: rgba( 255, 255, 255, 0.5);
+padding: 1% 0%;
+}
+
+#submit{
+color: white;
+background-color: #0bd;
+padding:1% 2.5%;
+margin-top:3%;
+border-radius: 3px;
+}
+
+#acsess-map,#SNS-content{
+padding: 3% 12%;
+}
+
+h3{
+color: #1E0000;
+padding: 2%;
+border-bottom:solid 2px #0bd;
+font-size: 150%;
+margin-bottom:6%;
+}
+
+#gftd-address{
+line-height:1.8;
+}
+
+#acsess-map ,#SNS-content{
+display: flex;
+justify-content: space-between;
+}
+
+#SNS{
+background-color:#eee8aa;
+}
+
+iframe .twitter-timeline{
+width: 100%;
+height: 100%;
+}
+
+@media screen and (max-width: 896px){
+
+.bg{
+background-position: left top;
+}
+
+section{
+padding:0 3%;
+}
+
+h2{
+padding:0;
+font-weight:120%;
+font-size:300%;
+margin-bottom:8%;
+}
+
+p{
+color: #1E0000;
+}
+
+form , dl ,dd , dt{
+display: block;
+}
+
+dd{
+margin: 5% 0;
+}
+
+dt{
+font-size: 150%;
+}
+
+#name ,#email{
+padding: 5% 0;
+}
+
+#name,#email,#message{
+border-radius: 2%;
+font-size: 160%;
+width: 100%;
+}
+
+#submit{
+color: white;
+background-color: #0bd;
+padding:2% 5%;
+margin-top:3%;
+border-radius: 3px;
+}
+
+#acsess{
+margin-bottom: 10%;
+}
+
+#acsess-map,#SNS-content{
+padding: 1% 3%;
+display: block;
+}
+
+#map-box ,.SNS-box{
+margin: 10% 0;
+}
+
+h3{
+color: #1E0000;
+padding: 2%;
+border-bottom:solid 2px #0bd;
+font-size: 150%;
+margin-bottom:6%;
+}
+
+#map{
+width: 100%;
+height:400;
+}
+
+.iframe-wrap{
+position: relative;
+}
+
+iframe .twitter-timeline{
+position: absolute;
+top: 0;
+left:0;
+width:100%;
+height: 100%;
+}
+
+.youtube-wrap{
+position:relative;
+height:0;
+margin-top:20px;
+margin-bottom:20px;
+padding-bottom:56.25%;
+padding-top:30px;
+overflow:hidden;
+}
+
+.youtube-wrap iframe{
+position:absolute;
+top:0;
+right:0;
+width:100% !important;
+height:100% !important;
+}
+
+#SNS{
+padding:5% 0 10% 0;
+}
+
+#gftd-address{
+line-height:1.8;
+}
+
+.copyright{
+padding:8% 2% 2% 0%;
+}
+
+}
